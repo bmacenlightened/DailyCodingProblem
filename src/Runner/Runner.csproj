@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\BinaryTreeProblems\BinaryTreeProblems.csproj" />
+    <ProjectReference Include="..\..\LinkedListProblems\LinkedListProblems.csproj" />
+    <ProjectReference Include="..\..\ProbabilityProblems\ProbabilityProblems.csproj" />
+    <ProjectReference Include="..\..\StackProblems.cs\StackProblems.cs.csproj" />
+  </ItemGroup>
+
+</Project>
